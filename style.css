@@ -1,13 +1,17 @@
-@font-face {
-    font-family: BasicLettering;
-    src: url();
-}
+/* @font-face 
+{
+    font-family: 'BasicLettering'; 
+    src: url('Basicletteringfree.otf') format('truetype') 
+         url('Basicletteringfree.ttf') format('opentype'); 
+         
+} */
 
 body
 {
     display: flex;
     flex-direction:column;
-    background-color: white;
+    background-color: rgb(212, 210, 210);
+    margin: 0%;
 }
 
 header
@@ -15,15 +19,17 @@ header
     display: flex;
     flex-direction: column;
     /* font-family: ; */
-    border: solid 2px black;
-    border-radius: 15px;
+    border-bottom: solid 3px black;
     align-items: center;
     padding: 0%;
     background-color: rgb(232, 232, 232);
     margin-bottom: 10px;
+    
 }
 
-
+h1, h2, h3, h4 {
+    font-family: 'BasicLettering', sans-serif; 
+}
 
 #location
 {
@@ -34,3 +40,57 @@ header
 {
     
 }
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 3px black;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: white;
+}
+
+#VanligArticle
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#Bildvanlig
+{
+    margin: 10px;
+    border: solid 3px black;
+    width: 90%;
+}
+
+
+#TextVanlig
+{
+    grid-column: 2;
+    text-align: center;
+}
+
+#DeluxeArticle
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+#BildDeluxe
+{
+    margin: 10px;
+    border: solid 3px black;
+    width: 90%;
+}
+
+#TextDeluxe
+{
+    grid-column: 2;
+    text-align: center;
+}
+
