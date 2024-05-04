@@ -1,0 +1,36 @@
+@font-face {
+    font-family: BasicLettering;
+    src: url();
+}
+
+body
+{
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    /* font-family: ; */
+    border: solid 2px black;
+    border-radius: 15px;
+    align-items: center;
+    padding: 0%;
+    background-color: rgb(232, 232, 232);
+    margin-bottom: 10px;
+}
+
+
+
+#location
+{
+   
+}
+
+#webname
+{
+    
+}
